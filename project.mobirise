@@ -50,7 +50,7 @@
         "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 95,
+    "uniqCompNum": 96,
     "versionPublish": "5.9.6",
     "imageResize": true,
     "chatbutton": {},
@@ -1215,6 +1215,35 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "_name": "article12",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article12\" group=\"Article\">    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4 mt-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>ooo</b></h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">The storytelling magic of photos\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">TAGI: Odbiór towaru ze sklepów meblowych, budowlanych\n<br>Przeprowadzki , przewóz rzeczy ,\n<br>przewóz AGD / Mebli / Materiałów budowlanych na terenie Wrocławia i okolic.\n<br>\n<br>&nbsp;usługi transportowe Wrocław , usługi usługa transportu , transport busem , wynajem busa z kierowcą , przewóz busem , bagażówka przeprowadzki wrocław przeprowadzka , transport z obi przewóz przewozy z obi , na cito transport z ikea transport mebli z ikea wrocław transport z castorama leroy merlin , transport roślin transport z agata meble transport z jysk transport z brw black red white transport z mediamarkt z media markt transport z rtv euro agd transport na dziś z jula transport na już z komfort transport brico marche transport z merdia expert neonet transport z domar transport przewóz pralki lodówki szafy wersalki narożnika kanapy gabaryt Wrocław<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "article12-2n",
+          "_isUserblock": true,
+          "_cid": "tWf5CyLNAR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]
